@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+
+    <div
+      class="card w-[34rem] h-80 my-16 m-auto p-8 grid grid-cols-5 grid-rows-5 gap-4 shadow-lg shadow-black relative"
+    >
+    <div class="black absolute w-full h-30 bg-black row-span-2 col-span-5 z-[-10]"></div>
+    <!-- Left -->
+      <aside class="row-span-4 col-span-2 drop-shadow-[5px_5px_0px_cyan]">
+        <img
+        src="Malibu-Sky-In-action-Womens-1_1500x.webp" alt="" />
+      </aside>
+<!-- right -->
+      
+        <div class="upper-half row-span-2 col-span-3 ">
+            <h2 class="text-3xl text-white font-bold">Retro Shoe</h2>
+            <h3 class="text-xl text-white font-bold inline-block">$ 89.00</h3>
+            <p class="text-xl text-indigo-600 inline-block ml-8">In Stock</p>
+        </div>
+
+        <div class="upper-half row-span-1 col-span-3  flex justify-between">
+            <div class="w-[35px] h-full bg-black flex justify-center items-center drop-shadow-[2px_2px_0px_cyan]">
+                <p class="text-white text-lg">XS</p>
+            </div>
+            <div class="w-[35px] h-full  flex justify-center items-center">
+                <p class="text-gray-600 text-lg">S</p>
+            </div>
+            <div class="w-[35px] h-full  flex justify-center items-center">
+                <p class="text-gray-600 text-lg">MD</p>
+            </div>
+            <div class="w-[35px] h-full  flex justify-center items-center">
+                <p class="text-gray-600 text-lg">L</p>
+            </div>
+            <div class="w-[35px] h-full  flex justify-center items-center">
+                <p class="text-white text-lg">XL</p>
+            </div>
+        </div>
+
+        <div class="upper-half row-span-1 col-span-3 flex justify-between items-center">
+            <button class="h-full px-4 bg-cyan-500 text-black font-semibold  border-2 border-black ">Buy Now</button>
+            <button class="h-full px-4 border-1 border-gray-400 font-semibold ">Add to Cart</button>
+            <i class="fa-solid fa-heart text-xl text-black"></i>
+
+        </div>
+
+        <div class="upper-half row-span-1 col-span-5  flex justify-end ml-18">
+            <p class="align-end text-gray-600 text-xs font-bold">Free Shiping all over the globe over purchase $30.</p>
+        </div>
+
+
+      </div>
+  </body>
+</html>
+
+<!-- npx @tailwindcss/cli -i ./input.css -o ./output.css --watch -->
